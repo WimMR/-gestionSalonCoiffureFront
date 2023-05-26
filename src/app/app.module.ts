@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { AvisComponent } from './Avis/avis/avis.component';
 import { FormsModule } from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
+import { UtilisateurComponent } from './utilisateur/utilisateur/utilisateur.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    AvisComponent
+    AvisComponent,
+    UtilisateurComponent
   ],
   imports: [
     BrowserModule,

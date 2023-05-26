@@ -1,0 +1,14 @@
+<div>
+    <h1>Ajouter une réservation</h1>
+    <form (ngSubmit)="saveAvi()">
+        <table>
+            <tr>
+                <td>date</td>
+                <td><input type="date" [(ngModel)]="reservation.date" name="date"/></td>
+
+            </tr>
+                <td colspan="2"><button>Ajouter</button></td>
+            </tr>
+        </table>
+    </form>
+</div>

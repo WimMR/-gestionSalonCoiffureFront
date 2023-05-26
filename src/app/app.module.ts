@@ -7,13 +7,15 @@ import { AvisComponent } from './Avis/avis/avis.component';
 import { FormsModule } from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import { UtilisateurComponent } from './utilisateur/utilisateur/utilisateur.component';
+import { ReservationComponent } from './reservation/reservation.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     AvisComponent,
-    UtilisateurComponent
+    UtilisateurComponent,
+    ReservationComponent
   ],
   imports: [
     BrowserModule,

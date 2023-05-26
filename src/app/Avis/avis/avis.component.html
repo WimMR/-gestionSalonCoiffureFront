@@ -1,0 +1,19 @@
+<div>
+    <h1>Ajouter un avis</h1>
+    <form (ngSubmit)="saveAvi()">
+        <table>
+            <tr>
+                <td>titre</td>
+                <td><input type="text" [(ngModel)]="avi.titre" name="titre"/></td>
+
+            </tr>
+            <tr>
+                <td>Description</td>
+                <td><input type="text" [(ngModel)]="avi.description" name="description"/></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button>Ajouter</button></td>
+            </tr>
+        </table>
+    </form>
+</div>

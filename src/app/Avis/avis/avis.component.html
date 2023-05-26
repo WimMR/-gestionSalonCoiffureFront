@@ -17,3 +17,17 @@
         </table>
     </form>
 </div>
+<div>
+    <table>
+        <tr>
+            <td>Titre</td>
+            <td>Description</td>
+            <td>Action</td>
+        </tr>
+        <tr *ngFor="let u of avis">
+            <td>{{u.titre}}</td>
+            <td>{{u.description}}</td>
+            <td><button (click)="deleteAvi(u.idAvi)">Delete</button></td>
+        </tr>
+    </table>
+</div>
